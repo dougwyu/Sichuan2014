@@ -37,8 +37,6 @@ library(ggplot2)
 library(metacoder)
 library(tibble)
 library(UpSetR)
-# library(renv)
-# renv::init()
 sessionInfo()
 
 ```
