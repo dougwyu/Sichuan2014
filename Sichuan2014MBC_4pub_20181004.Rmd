@@ -47,8 +47,8 @@ vsearch --usearch_global 2libs_CROP97.cluster3507.fasta --db 2libs_CROP97.cluste
 
 # using match list for lulu
 ```{r code for lulu, eval=FALSE, include=FALSE}
-matchlist <- read.table("lulu_3507/match_list.txt", header=FALSE,as.is=TRUE, stringsAsFactors=FALSE)  # 3507 OTUs
-comLuLu <- read.table("lulu_3507/2libs_CROP97_merge_otu3507.txt", header= T, sep = "\t")
+matchlist <- read.table("lulu_3507/match_list.txt", header=FALSE,as.is=TRUE, stringsAsFactors=FALSE)  # 3507 OTUs pairwise compared with vsearch
+comLuLu <- read.table("lulu_3507/2libs_CROP97_merge_otu3507.txt", header= T, sep = "\t") # OTU table
 
 str(comLuLu)
 rname <- comLuLu[,1]
